@@ -22,8 +22,6 @@ Estimated time to complete core lab exercise: **180 minutes**
 ### 🚀 Level Up
 
 - [Creating User Stories](./level-up/creating-user-stories.md)
-- [History of HTML](./level-up/history-of-html.md)
-- [Emmet](./level-up/emmet.md)
 
 ## Internal resources
 
