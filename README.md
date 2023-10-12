@@ -7,6 +7,8 @@ tktk Hunter - we need an asset that says "JavaScript DOM Calculator Lab"
 
 This lab provides us with an opportunity to practice DOM manipulation by building a calculator in the browser.
 
+![Calculator](./assets/calculator.png)
+
 ## Lab content
 
 - [Setup](./setup/README.md)
