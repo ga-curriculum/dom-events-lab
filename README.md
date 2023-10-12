@@ -11,12 +11,11 @@ This lab provides us with an opportunity to practice DOM manipulation by buildin
 
 - [Setup](./setup/README.md)
 - [Lab exercise](./exercise/README.md)
-- [tktk Starter code remove if no starter](#tktk-external-repo-link)
 - [tktk Solution code](#tktk-external-repo-link)
 
 ## Time to complete
 
-tktk Estimated time to complete core lab exercise: 
+Estimated time to complete core lab exercise: **180 minutes**
 
 ## Additional content 
 
