@@ -1,10 +1,11 @@
-# [tktk Module Name]
+# JavaScript DOM Calculator Lab
 
 ![Hero image](./assets/tktkhero-main.png)
+tktk Hunter - we need an asset that says "JavaScript DOM Calculator Lab"
 
 ## Introduction
 
-tktk Introduce the lab. What will the students build in this lab?
+This lab provides us with an opportunity to practice DOM manipulation by building a calculator in the browser.
 
 ## Lab content
 
