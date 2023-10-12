@@ -10,9 +10,8 @@ This lab provides us with an opportunity to practice DOM manipulation by buildin
 ![Calculator](./assets/calculator.png)
 
 ## Lab content
-
+- [Introduction & User Stories](./introduction-user-stories/README.md)
 - [Setup](./setup/README.md)
-- [Lab exercise](./exercise/README.md)
 - [tktk Solution code](#tktk-external-repo-link)
 
 ## Time to complete
@@ -20,8 +19,6 @@ This lab provides us with an opportunity to practice DOM manipulation by buildin
 Estimated time to complete core lab exercise: **180 minutes**
 
 ### 🚀 Level Up
-
-- [Creating User Stories](./level-up/creating-user-stories.md)
 
 ## Internal resources
 
