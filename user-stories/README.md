@@ -17,9 +17,3 @@ Here are some user stories for this lab:
 - As a user, I want to be able to divide one number by another.
 - As a user, I want to be able to see the output of the mathematical operation.
 - As a user, I want to be able to clear all operations and start from 0.
-
-## Level Up
-
-- SqRt
-- Exponents
-- Chain operations
