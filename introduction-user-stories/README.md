@@ -1,17 +1,9 @@
-# JavaScript DOM Calculator Lab - Introduction & User Stories
+# JavaScript DOM Calculator Lab - User Stories
 
 ![Hero image](./assets/hero.png)
 
-tktk - Hunter please add an asset with "Introduction - Creating User Stories"
+tktk - Hunter please add an asset with "User Stories"
 
-**Learning objective** Build a browser based calculator to perform mathmatical operations with using the following technologies:
-
-- HTML
-- CSS
-- JavaScript
-- DOM Manipulation
-
-## User Stories
 
 User stories are a great way to break down what the different features of the website are, and how to structure it. They are generally written out in this form "As a user, I want to...". 
 
