@@ -81,7 +81,55 @@ Add the following to your **`index.html`** file.
 Add the following code to your CSS stylesheet.
 
 ```css
-/* tktk add css */
+.display {
+  color: white;
+  background-color: grey;
+  border: 1px solid red;
+  height: 40px;
+  width: 90%;
+  border: 1px solid black;
+  margin-top: 10px;
+  display: flex;
+  font-size: 36px;
+  justify-content: flex-end;
+}
+
+.calculator {
+  width: 300px;
+  border: 1px solid black;
+  height: 400px;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  background-color: #1f1e1e;
+}
+
+.container {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10vh;
+}
+
+.row {
+  display: flex;
+  justify-content: space-around;
+}
+
+.button {
+  height: 40px;
+  width: 40px;
+  border: 1px solid black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 32px;
+  border-radius: 50%;
+  padding: 0;
+  background-color: #ff043a;
+  color: #ffffff;
+}
 ```
 
 ### JavaScript
