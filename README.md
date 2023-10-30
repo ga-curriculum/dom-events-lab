@@ -5,14 +5,19 @@ tktk Hunter - we need an asset that says "JavaScript DOM Calculator Lab"
 
 ## Introduction
 
-This lab provides us with an opportunity to practice DOM manipulation by building a calculator in the browser.
+This lab provides an opportunity to practice DOM manipulation by building a calculator in the browser, using the following:
+
+- HTML
+- CSS
+- JavaScript
+- DOM Manipulation
 
 ![Calculator](./assets/calculator.png)
 
 ## Lab content
-- [Introduction & User Stories](./introduction-user-stories/README.md)
 - [Setup](./setup/README.md)
-- [tktk Solution code](#tktk-external-repo-link)
+- [User Stories](./user-stories/README.md)
+- [Solution code](https://git.generalassemb.ly/modular-curriculum-all-courses/dom-calculator-lab-solution)
 
 ## Time to complete
 

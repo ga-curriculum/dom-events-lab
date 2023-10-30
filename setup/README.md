@@ -18,23 +18,16 @@ mkdir js-dom-calculator-lab
 cd js-dom-calculator-lab
 ```
 
-Then, create an **`script.js`**, an **`index.html`**, and a **`style.css`** file. These files will hold your work for this lab:
+Then, create a **`app.js`**, a **`index.html`**, and a **`style.css`** file. These files will hold your work for this lab:
 
 ```bash
-touch script.js index.html style.css
+touch app.js index.html style.css
 ```
 
 With the files created, open the contents of the directory in VS Code:
 
 ```bash
 code .
-```
-
-Open the **`index.html`** file and add HTML boilerplate. Then make use of the **`script.js`** file by adding this line inside the `<head>` tag:
-
-```html
-<script defer src="./script.js"></script>
-<link href="./style.css" rel="stylesheet" />
 ```
 
 ### HTML
@@ -88,7 +81,55 @@ Add the following to your **`index.html`** file.
 Add the following code to your CSS stylesheet.
 
 ```css
-/* tktk add css */
+.display {
+  color: white;
+  background-color: grey;
+  border: 1px solid red;
+  height: 40px;
+  width: 90%;
+  border: 1px solid black;
+  margin-top: 10px;
+  display: flex;
+  font-size: 36px;
+  justify-content: flex-end;
+}
+
+.calculator {
+  width: 300px;
+  border: 1px solid black;
+  height: 400px;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  background-color: #1f1e1e;
+}
+
+.container {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10vh;
+}
+
+.row {
+  display: flex;
+  justify-content: space-around;
+}
+
+.button {
+  height: 40px;
+  width: 40px;
+  border: 1px solid black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 32px;
+  border-radius: 50%;
+  padding: 0;
+  background-color: #ff043a;
+  color: #ffffff;
+}
 ```
 
 ### JavaScript
@@ -101,11 +142,10 @@ Add the following outline to your JS file.
 
 /*------------------------ Cached Element References ------------------------*/
 
-/*----------------------------- Event Listeners -----------------------------*/
-
 /*-------------------------------- Functions --------------------------------*/
-```
 
+/*----------------------------- Event Listeners -----------------------------*/
+```
 
 - Open the **`index.html`** file in your browser and access the console output in your browser's dev tools to begin work on your JavaScript logic.
 
