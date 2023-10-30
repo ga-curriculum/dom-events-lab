@@ -1,7 +1,4 @@
-# JavaScript DOM Calculator Lab - Setup
-
-![Hero image](./assets/hero.png)
-tktk Hunter - we need to replace this stock hero image with one that includes "JavaScript DOM Calculator Lab - Setup"
+# ![DOM Events Lab - Setup](./assets/hero.png)
 
 ## Setup 
 

@@ -1,8 +1,4 @@
-# JavaScript DOM Calculator Lab - User Stories
-
-![Hero image](./assets/hero.png)
-
-tktk - Hunter please add an asset with "User Stories"
+# ![DOM Events Lab - User Stories](./assets/hero.png)
 
 User stories are a great way to break down what the different features of the website are, and how to structure them. They are generally written out in the following way: "As a user, I want to...". 
 

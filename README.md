@@ -1,7 +1,4 @@
-# JavaScript DOM Calculator Lab
-
-![Hero image](./assets/tktkhero-main.png)
-tktk Hunter - we need an asset that says "JavaScript DOM Calculator Lab"
+# ![DOM Events Lab](./assets/hero.png)
 
 ## Introduction
 
