@@ -15,17 +15,33 @@ Here is an example user story from this lab:
 
 Let's get some practice in how we might implement this user story. 
 
+### Preliminary Questions
 When approaching this task, we might consider the following:
 
 1. When a user clicks on a button, our aim is to capture its unique "value".
 2. What steps might we take to achieve this?
 3. Are there any existing attributes useful for tying events to our number button elements?
 
-After working out our approach, we could take the following steps to implement our story:
+### Implementation
+After working out our approach, we could take the following steps to implement our user story:
 
-1. Create variables like `firstValue` and `secondValue` to store the values of selected numbers.
-2. Store a cached element references for the number buttons. Utilizing the existing `number` class might be helpful here.
-3. Use the `forEach` method to dynamically add an event listener to each number button.
+1. First we create variables to store the values of selected numbers.
+    ```javascript
+    let firstValue = null;
+    let secondValue = null;
+    ```
+2. Using `querySelectorAll` and the existing `number` class, we store a cached element references for our number buttons.
+    ```javascript
+    const numbers = document.querySelectorAll(".number")
+    ```
+3. Using the `forEach` method, we dynamically add an event listener to each number button.
+    ```javascript
+    numbers.forEach(number => {
+      number.addEventListener("click", (event) => {
+        // logic to capture the button's value...
+      })
+    })
+    ```
 
 ## Lab Exercise
 Your goal is to implement the user stories below. The Minimum Viable Product (MVP) build for this lab does not include consideration for edge cases. For instance, the scenario where a user presses an operator twice is beyond our MVP scope. However, addressing such cases could be a worthwhile challenge after meeting the MVP.
