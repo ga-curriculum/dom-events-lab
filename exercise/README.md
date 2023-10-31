@@ -55,6 +55,8 @@ Your goal is to implement the user stories below. The Minimum Viable Product (MV
 - As a user, I want to be able to clear all operations and start from 0.
 
 ## Tips
-- At the start, concentrate on operations like adding or subtracting single digits (1+1).
-- As you progress, start to work out an approach to dealing adding and subtracting multiple digits (15-10).
-- Each button on the calculator has a distinct role. Think about the different considerations you might make for an event triggered by a number in contrast to an event triggered by an operator button.
+1. **Start with the basics**: Begin with simple operations involving single digits, e.g., 1 + 1 or 4 - 2.
+
+2. **Move on to more complex values**: Once comfortable, move on to operations with multi-digit numbers, like 15 - 10 or 23 + 57.
+
+3. **Button roles**: Remember, each calculator button serves a specific purpose. Differentiate between number buttons and operator buttons. Consider how the event handling might vary between them.
