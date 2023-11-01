@@ -1,7 +1,7 @@
 # ![DOM Events Lab - Lab Exercise](./assets/hero.png)
 
 ## Introduction
-Before diving into the exercise, take a moment to inspect the provided starter code. It contains essential building blocks for your calculator. Open up the `index.html` file in your browser to get a better sense of the interface you'll be working with. The complete HTML and CSS portions have been provided for you. Your main task is to use DOM Manipulation in `app.js` file to make the calculator functional.
+Before diving into the exercise, take a moment to inspect the provided starter code. You'll find that both the HTML and CSS portions have already been provided for you. Your task is to use DOM Manipulation in the `app.js` file to make the calculator functional. In the `index.html` file, take note of the attributes that allow you to access and interact with specific elements. Open up the `index.html` file in your browser to get a better sense of the interface you'll be working with. 
 
 ## User Stories
 User stories are a great way to break down what the different features of the website are, and how to structure them. They are generally written out in the following way: "As a user, I want to...". 
