@@ -1,26 +1,30 @@
 # ![DOM Events Lab](./assets/hero.png)
 
-## Introduction
+## About
 
-This lab provides an opportunity to practice DOM manipulation by building a calculator in the browser, using the following:
+This lab provides an opportunity to practice DOM manipulation by building a calculator in the browser.
+
+![Calculator](./assets/calculator.png)
+
+## Prerequisites
 
 - HTML
 - CSS
 - JavaScript
 - DOM Manipulation
 
-![Calculator](./assets/calculator.png)
-
-## Lab content
-- [Setup](./setup/README.md)
-- [Lab Exercise](./exercise/README.md)
-- [Solution code](https://git.generalassemb.ly/modular-curriculum-all-courses/dom-calculator-lab-solution)
-
 ## Time to complete
 
 Estimated time to complete core lab exercise: **180 minutes**
 
-### 🚀 Level Up
+## Content
+
+- [Setup](./setup/README.md)
+- [Lab Exercise](./exercise/README.md)
+
+## Solution Code
+
+🏁 [Solution code](https://git.generalassemb.ly/modular-curriculum-all-courses/dom-calculator-lab-solution)
 
 ## Internal resources
 
