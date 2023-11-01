@@ -1,7 +1,4 @@
-# JavaScript DOM Calculator Lab
-
-![Hero image](./assets/tktkhero-main.png)
-tktk Hunter - we need an asset that says "JavaScript DOM Calculator Lab"
+# ![DOM Events Lab](./assets/hero.png)
 
 ## Introduction
 
@@ -16,7 +13,7 @@ This lab provides an opportunity to practice DOM manipulation by building a calc
 
 ## Lab content
 - [Setup](./setup/README.md)
-- [User Stories](./user-stories/README.md)
+- [Lab Exercise](./exercise/README.md)
 - [Solution code](https://git.generalassemb.ly/modular-curriculum-all-courses/dom-calculator-lab-solution)
 
 ## Time to complete
