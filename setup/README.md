@@ -1,7 +1,6 @@
 # ![DOM Events Lab - Setup](./assets/hero.png)
 
 ## Setup 
-
 Open your Terminal application and navigate to your **`~/code/ga/labs`** directory:
 
 ```bash
@@ -155,6 +154,3 @@ Add the following outline to your JS file.
 ```
 
 - Open the **`index.html`** file in your browser and access the console output in your browser's dev tools to begin work on your JavaScript logic.
-
-
-

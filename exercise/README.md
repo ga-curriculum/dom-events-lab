@@ -1,7 +1,6 @@
 # ![DOM Events Lab - Lab Exercise](./assets/hero.png)
 
 ## Introduction
-
 Before diving into the exercise, take a moment to inspect the provided starter code. It contains essential building blocks for your calculator. Open up the `index.html` file in your browser to get a better sense of the interface you'll be working with. The complete HTML and CSS portions have been provided for you. Your main task is to use DOM Manipulation in `app.js` file to make the calculator functional.
 
 ## User Stories
