@@ -1,4 +1,4 @@
-# ![DOM Events Lab - Lab Exercise](./assets/hero.png)
+# ![DOM Events Lab - Exercise](./assets/hero.png)
 
 ## Introduction
 Before diving into the exercise, take a moment to inspect the provided starter code. You'll find that both the HTML and CSS portions have already been provided for you. Your task is to use DOM Manipulation in the `app.js` file to make the calculator functional. In the `index.html` file, take note of the attributes that allow you to access and interact with specific elements. Open up the `index.html` file in your browser to get a better sense of the interface you'll be working with. 
