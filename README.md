@@ -8,9 +8,9 @@ This lab provides an opportunity to practice DOM manipulation by building a calc
 
 ## Prerequisites
 
-- HTML
-- CSS
-- JavaScript
+- Foundational HTML
+- Foundational CSS
+- Foundational JavaScript
 - DOM Manipulation
 
 ## Time to complete
