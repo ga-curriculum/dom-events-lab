@@ -7,11 +7,11 @@ Open your Terminal application and navigate to your **`~/code/ga/labs`** directo
 cd ~/code/ga/labs
 ```
 
-Make a new directory called **`js-dom-calculator-lab`**, then enter this directory:
+Make a new directory called **`dom-events-lab`**, then enter this directory:
 
 ```bash
-mkdir js-dom-calculator-lab
-cd js-dom-calculator-lab
+mkdir dom-events-lab
+cd dom-events-lab
 ```
 
 Then, create a **`app.js`**, a **`index.html`**, and a **`style.css`** file. These files will hold your work for this lab:
@@ -35,7 +35,7 @@ Add the following to your **`index.html`** file.
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>DOM Calculator</title>
+  <title>DOM Events Lab</title>
   <script defer src="./app.js"></script>
   <link rel="stylesheet" href="./style.css">
 </head>
