@@ -1,0 +1,16 @@
+# ![DOM Events Lab](./assets/hero.png)
+
+## About
+
+This lab provides an opportunity to practice DOM manipulation by building a calculator in the browser.
+
+![Calculator](./assets/calculator.png)
+
+## Time to complete
+
+Estimated time to complete core lab exercise: **180 minutes**
+
+## Content
+
+- [Setup](./setup/README.md)
+- [Lab Exercise](./exercise/README.md)
