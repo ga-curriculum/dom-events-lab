@@ -2,11 +2,13 @@
 
 ## Introduction
 
-Before diving into the exercise, take a moment to inspect the provided starter code. You'll find that both the HTML and CSS portions have already been provided for you. Your primary focus will be on using JavaScript in the `app.js` file to bring the calculator to life. Pay special attention to the `index.html` file and any provided `attributes` that will help you interact with the calculator's elements. Before you start coding, open the `index.html` file in your browser to familiarize yourself with the user interface you'll be working with.
+Before diving into the exercise, take a moment to inspect the provided starter code. You'll find that both the HTML and CSS portions have already been provided for you. Your primary focus will be on using JavaScript in the `app.js` file to bring the calculator to life. Pay special attention to the `index.html` file and any provided `attributes` that will help you interact with the calculator's elements.
+
+Before you start coding, open the `index.html` file in your browser to familiarize yourself with the user interface you'll be working with.
 
 ## User stories
 
-User stories are crucial in breaking down the features of an application and structuring the development process. 
+User stories are crucial in breaking down the features of an application and structuring the development process.
 They are typically written as "As a user, I want to...", which helps in focusing on user needs and experiences.
 
 Here are the user stories for this lab:
@@ -25,7 +27,7 @@ Here are the user stories for this lab:
 
 Let's take the first one as an example and work through some preliminary questions and implementation steps together.
 
- - **User Story:** As a user, I want to be able to select numbers so that I can perform operations with them.
+- **User Story:** As a user, I want to be able to select numbers so that I can perform operations with them.
 
 ### Preliminary Questions
 
@@ -41,30 +43,29 @@ After thinking through our approach, we could take the following steps to implem
 
 1. Query for the number buttons
 
-- Using `querySelectorAll` and the existing `number` class, we can store a cached element reference for our number buttons.
+   - Using `querySelectorAll` and the existing `number` class, we can store a cached element reference for our number buttons.
 
-```javascript
-const numbers = document.querySelectorAll(".number")
-```
+   ```javascript
+   const numbers = document.querySelectorAll(".number")
+   ```
 
 2. Add event listeners
 
-- Using the `forEach` method, add event listeners to each number button. 
+   - Using the `forEach` method, add event listeners to each number button.
 
-- We can use a `console.log` within the event listener to verify that the click event captures the correct value from the button. This step is for testing purposes and will be replaced with actual logic to capture and use the button's value later. 
+   - We can use a `console.log` within the event listener to verify that the click event captures the correct value from the button. This step is for testing purposes and will be replaced with actual logic to capture and use the button's value later.
 
+   ```javascript
+   numbers.forEach(number => {
+     number.addEventListener("click", (event) => {
+       // This log is for testing purposes to verify we're getting the correct value
+       console.log(event.target.innerText);
+       // Future logic to capture the button's value goes here...
+     });
+   });
+   ```
 
-```javascript
-numbers.forEach(number => {
-  number.addEventListener("click", (event) => {
-    // This log is for testing purposes to verify we're getting the correct value
-    console.log(event.target.innerText);
-    // Future logic to capture the button's value goes here...
-  });
-});
-```
-
-> `event.target.innerText` attempts to access the inner text of the clicked element. This is typically the text content inside an HTML element.
+   > 🧠 `event.target.innerText` attempts to access the inner text of the clicked element. This is typically the text content inside an HTML element.
 
 When any element in the numbers collection is clicked, this code will log its inner text (the visible text inside the element) to the console.
 

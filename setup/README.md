@@ -1,6 +1,7 @@
 # ![DOM Events Lab - Setup](./assets/hero.png)
 
-## Setup 
+## Setup
+
 Open your Terminal application and navigate to your **`~/code/ga/labs`** directory:
 
 ```bash
@@ -9,10 +10,9 @@ cd ~/code/ga/labs
 
 Navigate to [GitHub](https://github.com/) and create a new repository named **dom-events-lab**.
 
-  - Make sure the repo is set to `public`
-  - You do not need a `README.md`
-  - You do not need a `.gitignore`
-
+- Make sure the repo is set to `public`
+- You do not need a `README.md`
+- You do not need a `.gitignore`
 
 Using the `Quick Setup` option, clone your newly created repo into your `~/code/ga/labs` directory with the `git clone` command:
 
@@ -41,6 +41,7 @@ code .
 ```
 
 ### HTML
+
 Add the following to your **`index.html`** file.
 
 ```html
@@ -87,6 +88,7 @@ Add the following to your **`index.html`** file.
 ```
 
 ### CSS
+
 Add the following code to your CSS stylesheet.
 
 ```css
@@ -153,6 +155,7 @@ body {
 ```
 
 ### JavaScript
+
 Add the following outline to your JS file.
 
 ```js
@@ -162,9 +165,9 @@ Add the following outline to your JS file.
 
 /*------------------------ Cached Element References ------------------------*/
 
-/*-------------------------------- Functions --------------------------------*/
-
 /*----------------------------- Event Listeners -----------------------------*/
+
+/*-------------------------------- Functions --------------------------------*/
 ```
 
 - Open the **`index.html`** file in your browser and access the console output in your browser's dev tools to begin work on your JavaScript logic.
