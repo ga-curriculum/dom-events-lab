@@ -37,39 +37,81 @@ When planning our code, we might consider the following:
 2. What steps are needed to achieve this?
 3. Can we use existing attributes to tie events to our number button elements?
 
-### Implementation
+## Implementation
 
-After thinking through our approach, we could take the following steps to implement this user story:
+After thinking through our approach, here are some options for implementing this user story:
 
-1. Query for the number buttons
+### Using `forEach` to assign event listeners
 
-   - Using `querySelectorAll` and the existing `number` class, we can store a cached element reference for our number buttons.
+1.  Query for all calculator buttons.
+
+    - Using `querySelectorAll` and the existing `button` class, we can store a reference to all of our calculator buttons.
+
+    ```javascript
+    const buttons = document.querySelectorAll('.button');
+    ```
+
+2.  Add event listeners to all buttons at once.
+
+    - Using the `forEach` method, you can add event listeners to all buttons.
+
+    - Use a `console.log` within the event listener to verify that the click event captures the correct value from the button. *This step is for testing purposes and should be replaced with actual logic to capture and use the button's value later.*
+
+    - Clicking a button will log the target's inner text to the console.
+
+      ```javascript
+      buttons.forEach((button) => {
+        button.addEventListener('click', (event) => {
+          // This log is for testing purposes to verify we're getting the correct value
+          console.log(event.target.innerText);
+          // Future logic to capture the button's value would go here...
+        });
+      });
+      ```
+
+    > 🧠 `event.target.innerText` accesses the inner text of the clicked element. This is the text content inside the HTML element.
+
+When any element in the button collection is clicked, this code will log its inner text (the visible text inside the element) to the console.
+
+### Using event delegation
+
+Event delegation allows us to assign event listeners to a parent element and handle events for its children through a single listener. This can be more efficient.
+
+1. Query for the parent calculator element.
+
+   - Using `querySelector` and the existing `calculator` id, we can store a reference to our calculator.
 
    ```javascript
-   const numbers = document.querySelectorAll(".number")
+   const calculator = document.querySelector('#calculator');
    ```
 
-2. Add event listeners
+2. Add an event listener to the calculator element.
 
-   - Using the `forEach` method, add event listeners to each number button.
+   - The parent element will delegate its event listener to its children, giving each button on the calculator the ability to respond to click events.
+   - Use a `console.log` within the event listener to verify that the click event captures the correct value from the button. *This step is for testing purposes and should be replaced with actual logic to capture and use the button's value later.*
+   - Clicking a button will log the target's inner text to the console.
 
-   - We can use a `console.log` within the event listener to verify that the click event captures the correct value from the button. This step is for testing purposes and will be replaced with actual logic to capture and use the button's value later.
+   ```js
+   calculator.addEventListener('click', (event) => {
+     // This log is for testing purposes to verify we're getting the correct value
+     // You have to click a button to see this log
+     console.log(event.target.innerText);
 
-   ```javascript
-   numbers.forEach(number => {
-     number.addEventListener("click", (event) => {
-       // This log is for testing purposes to verify we're getting the correct value
-       console.log(event.target.innerText);
-       // Future logic to capture the button's value goes here...
-     });
+     // Example
+     if (event.target.classList.contains('number')) {
+       // Do something with a number
+     }
+
+     // Example
+     if (event.target.innerText === '*') {
+       // Do something with this operator
+     }
    });
    ```
 
-   > 🧠 `event.target.innerText` attempts to access the inner text of the clicked element. This is typically the text content inside an HTML element.
+   > 🧠 `event.target.classList.contains('number')` checks if the clicked element has the class 'number'. This is useful for identifying different types of buttons (numbers vs. operators).
 
-When any element in the numbers collection is clicked, this code will log its inner text (the visible text inside the element) to the console.
-
-Now that we are able to 'select' numbers by clicking on number buttons, our User Story is satisfied.
+By using event delegation, we can handle clicks for all buttons within the calculator element using a single event listener.
 
 ## Lab Exercise
 
