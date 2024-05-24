@@ -6,9 +6,6 @@ This lab provides an opportunity to practice DOM manipulation by building a calc
 
 ![Calculator](../assets/calculator.png)
 
-## Time to complete
-
-Estimated time to complete core lab exercise: **180 minutes**
 
 ## Content
 
