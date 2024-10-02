@@ -1,4 +1,7 @@
-# ![DOM Events Lab](../assets/hero.png)
+<h1>
+  <span class="prefix"></span>
+  <span class="headline">DOM Events Lab</span>
+</h1>
 
 ## About
 

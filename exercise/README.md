@@ -1,4 +1,7 @@
-# ![DOM Events Lab - Exercise](./assets/hero.png)
+<h1>
+  <span class="headline">DOM Events Lab</span>
+  <span class="subhead">Exercise</span>
+</h1>
 
 ## Introduction
 
