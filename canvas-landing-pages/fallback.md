@@ -10,7 +10,6 @@ This lab provides an opportunity to practice DOM manipulation by building a calc
 
 ![Calculator](../assets/calculator.png)
 
-
 ## Content
 
 - [Setup](../setup/README.md)
