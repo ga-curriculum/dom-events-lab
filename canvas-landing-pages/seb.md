@@ -14,3 +14,7 @@ This lab provides an opportunity to practice DOM manipulation by building a calc
 
 - [Setup](../setup/README.md)
 - [Lab Exercise](../exercise/README.md)
+
+## Deployed sites
+
+🌐 [Live Example](https://pages.git.generalassemb.ly/modular-curriculum-all-courses/dom-events-lab-solution/)

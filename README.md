@@ -35,7 +35,6 @@ Estimated time to complete core lab exercise: **180 min**
 
 🌐 [Live Example](https://pages.git.generalassemb.ly/modular-curriculum-all-courses/dom-events-lab-solution/)
 
-
 ### Github Pages Sites
 
 - [Default Landing Page](https://pages.git.generalassemb.ly/modular-curriculum-all-courses/dom-events-lab/canvas-landing-pages/fallback)
