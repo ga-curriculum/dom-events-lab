@@ -29,13 +29,13 @@ Estimated time to complete core lab exercise: **180 min**
 
 ### Solution code
 
-🏁 [Solution code](https://git.generalassemb.ly/modular-curriculum-all-courses/dom-calculator-lab-solution)
+🏁 [Solution code](https://git.generalassemb.ly/modular-curriculum-all-courses/dom-events-lab-solution)
 
 ### Deployed sites
 
 🌐 [Live Example](https://pages.git.generalassemb.ly/modular-curriculum-all-courses/dom-events-lab-solution/)
 
-### Github Pages Sites
+### Course landing pages
 
 - [Default Landing Page](https://pages.git.generalassemb.ly/modular-curriculum-all-courses/dom-events-lab/canvas-landing-pages/fallback)
 - [SEB - Software Engineering Bootcamp](https://pages.git.generalassemb.ly/modular-curriculum-all-courses/dom-events-lab/canvas-landing-pages/seb)
