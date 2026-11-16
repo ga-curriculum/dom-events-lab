@@ -29,7 +29,7 @@ Estimated time to complete core lab exercise: **180 min**
 
 ### Solution code
 
-🏁 [Solution code](https://git.generalassemb.ly/modular-curriculum-all-courses/dom-events-lab-solution)
+🏁 [Solution code](https://github.com/ga-curriculum/dom-events-lab-solution)
 
 ### Deployed sites
 
